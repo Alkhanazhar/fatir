@@ -20,9 +20,8 @@
 }
 .cursive--font {
   font-family: "Forum", serif !important;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  @apply tracking-wider;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -42,4 +41,12 @@
 }
 .font--forum {
   font-family: "Forum" !important;
+}
+
+.text-secondary {
+  color: rgb(107, 90, 84);
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none !important;
 }
