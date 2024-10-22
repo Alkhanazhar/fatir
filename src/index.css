@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.scroll::-webkit-scrollbar {
+  @apply hidden; /* Chrome, Safari, Opera */
+}
+
+/* Add this CSS to your styles */
+.sidebar {
+  transition: transform 0.3s ease;
+  transform: translateX(-100%); /* Start off-screen */
+}
+
+.sidebar-open {
+  transform: translateX(0); /* Slide in */
+}
+.font-custom {
+  font-family: "gilroy", sans-serif; /* Define your custom font */
+}
+.cursive--font {
+  font-family: "Forum", serif !important;
+  font-weight: 400;
+  font-style: normal;
+  @apply tracking-wider;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #fff !important;
+}
+.swiper-pagination-bullet {
+  /* margin-top: 4rem; */
+  background: #e7e3e3;
+}
+.swiper-button-prev {
+  color: #fff !important;
+  scale: 0.95 !important;
+}
+.swiper-button-next {
+  color: #fff !important;
+  scale: 0.95 !important;
+}
+.font--forum {
+  font-family: "Forum" !important;
+}
